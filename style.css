@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-box {
+  width: 400px;
+  padding: 30px;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+}
